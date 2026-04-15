@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.main{
+    background-color: #647488;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-right: 0 40px;
+   
+}
+.nav-container{
+    gap: 10px;
+    margin-left: 20px;
+}
+.btn{
+    padding: 16px;
+    font-size: 26px ;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    cursor: pointer;
+    background: transparent;
+
+}
+
+.logo{
+    margin-left: 20px;
+    color: skyblue;
+    font-size: 30px;
+    font-style: bold;
+    font-family: inter sans-serif;
+}
+
+.main-container{
+ display:grid;
+ background-color: #1E293B;
+ width: 100%;
+ padding-top: 64px;
+ padding-left: 120px;
+ padding-right: 20px;
+ padding-bottom: 64px;
+ grid-template-columns: 500px 1fr;
+ align-items: center;
+ gap: 40px;
+ margin: auto;
+ justify-content: center;
+}
+
+.LEFT{
+  
+  color: white;
+  line-height: 1.6;
+  font-size: 1.2rem;
+
+}
+.intro{
+    margin: 0px 0px 16px;
+    font-size: 60px;
+}
+
+.intro1,.intro3{
+    color: #33C3F0;
+}
+
+.text1{
+    font-size: 24px;
+    font-family: sans-serif;
+    margin: 0px 0px 24px;
+
+}
+.RIGHT{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height:auto;
+    width: 100%;
+    border-radius: 16px;
+    
+}
+
+.profile img{
+    height: 304px;
+    width: 304px;
+    border-radius: 50%; 
+}
+
+
+.profile{
+    padding: 5px 15px;
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.contact{
+    height: auto;
+    border-top: 2dvi solid ;
+    padding-top: 20px;
+
+}
+.button{
+ font-size: 16px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.About{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 760px;
+    width: 100%;
+    background-color: #1E293B;
+}
+.aboutsec{
+    padding-top: 20px;
+    flex-direction: column;
+    height: 100px;
+    width: 100%;
+    font-family: inter sans-serif;
+
+}
+
+.details{
+    
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.skill{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center; 
+  min-height: 400px; 
+}
+
+.skill-1, .skill-2,.skill-3,.skill-4,.skill-5 {
+  height: 250px; 
+  width: 250px;
+  background-color:lightblue;
+  margin: 10px;
+  padding: 10px;
+  width: 80%; 
+  objec
+}
+
+.message{
+    background-color:  1F2937;
+
+}
+
+
+  
