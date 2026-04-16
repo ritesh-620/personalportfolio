@@ -21,7 +21,7 @@
 }
 .btn{
     padding: 16px;
-    font-size: 26px ;
+    font-size: 22px ;
     text-decoration: none;
     color: white;
     font-family: sans-serif;
@@ -45,7 +45,7 @@
  padding-top: 64px;
  padding-left: 120px;
  padding-right: 20px;
- padding-bottom: 64px;
+ padding-bottom: 50px;
  grid-template-columns: 500px 1fr;
  align-items: center;
  gap: 40px;
@@ -54,11 +54,8 @@
 }
 
 .LEFT{
-  
-  color: white;
   line-height: 1.6;
   font-size: 1.2rem;
-
 }
 .intro{
     margin: 0px 0px 16px;
@@ -68,15 +65,22 @@
 .intro1,.intro3{
     color: #33C3F0;
 }
-
+.intro2{
+    color: whitesmoke;
+}
 .text1{
+    color: whitesmoke;
     font-size: 24px;
     font-family: sans-serif;
     margin: 0px 0px 24px;
 
 }
-.RIGHT{
 
+.text2{
+    color:whitesmoke; 
+}
+
+.RIGHT{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,8 +88,6 @@
     text-align: center;
     height:auto;
     width: 100%;
-    border-radius: 16px;
-    
 }
 
 .profile img{
@@ -94,54 +96,57 @@
     border-radius: 50%; 
 }
 
-
 .profile{
     padding: 5px 15px;
     display: inline-block;
     margin-top: 10px;
-    text-align: center;
 }
 
-
-.contact{
-    height: auto;
-    border-top: 2dvi solid ;
-    padding-top: 20px;
-
-}
 .button{
- font-size: 16px;
- font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .About{
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 760px;
-    width: 100%;
+    height: 400px;
+    width:100%;
     background-color: #1E293B;
+    color: white;
+    margin: auto;
 }
 .aboutsec{
     padding-top: 20px;
-    flex-direction: column;
     height: 100px;
     width: 100%;
     font-family: inter sans-serif;
-
 }
 
 .details{
-    
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    
-
+    line-height: 1.6;
+    padding: 0 10%;
+}
+.skills{
+    background-color: #253042;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    color: whitesmoke;
 }
 .skill{
+    background-color: #253042;
   display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
   align-items: center; 
   min-height: 400px; 
 }
@@ -152,12 +157,21 @@
   background-color:lightblue;
   margin: 10px;
   padding: 10px;
-  width: 80%; 
-  objec
-}
 
+}
+i{
+    height: 220px;
+    width: 220px;
+    background-size: contain;
+}
 .message{
-    background-color:  1F2937;
+    background-color: #253042;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color:  whitesmoke;
 
 }
 
