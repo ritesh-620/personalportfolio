@@ -116,7 +116,26 @@ body {
 .details {
     font-size: 18px;
 }
-
+.education{
+    width: 100%;
+    padding: 60px 10%;
+    text-align: center;
+}
+.Education h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #33C3F0;
+}
+.Present-skill{
+    background-color: #334155;
+    padding: 50px;
+    border: 2px solid #0F172A;
+    border-radius: 15px;
+}
+.knowledge{
+    padding: 5px;
+    justify-content: space-between;
+}
 .skills {
     text-align: center;
     padding-top: 40px;
@@ -152,20 +171,17 @@ body {
     padding: 20px;
 
 }
-.message{
-   text-align: center; 
-}
-.personal-contact {
-    width: 100%;
-    min-height: 300px; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center;     
+.main-contact {
+    padding: 60px 10%;
+    width: 100%;   
     text-align: center;
-    color: white;            
-    background-color: #253042;
-    padding: 40px 0;
+    color: white;  
+}
+.personal-contact{
+    border: 2px solid #0F172A;
+    border-radius: 15px;         
+    background-color: #334155;
+    padding: 40px;
 }
 
 .email, .phone, .location {
@@ -197,4 +213,7 @@ body {
     align-items: center;
     flex-direction: column;
     text-align: center;
+}
+.foot-sec2{
+  gap: 5px;
 }
